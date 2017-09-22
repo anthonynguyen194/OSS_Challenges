@@ -58,26 +58,32 @@ def decryptVignere(message, key):
 
     return decrypted_message
 
-def wordsInDictionary(wordList, dictionary):
+def wordInDictionary(word):
     '''
     Checks if all the words are in the dictionary.
     '''
-    result = True
+    dictionary = open("dictionary.txt", "r")
 
-    for word in wordList:
-        # Append a new line to the word so that it can properly match in the dictionary.txt file.
-        word += "\n"
-        # Check if the word is not in the dictionary.
-        if word not in dictionary:
-            # If it is not then set the result to false.
-            result = False
+    result = False
+    word += "\n"
+
+    for word in dictionary:
+        result = True
+
+    dictionary.close()
+
     return result
 
 def crackMessage():
     dictionary = open("dictionary.txt", "r")
     result_file = open("results.txt", "w")
     for word in dictionary:
-        result_file.write(decryptVignere(CIPHER_TEXT, word.strip("\n")) + "\n")
+        decrypted_message = decryptVignere(CIPHER_TEXT, word.strip("\n"))
+        new_word = decrypted_message.split()[0]
+
+        if wordInDictionary(new_word):
+            result_file.write(decrypted_message + "\n")
+
 
 
 if __name__ == "__main__":
