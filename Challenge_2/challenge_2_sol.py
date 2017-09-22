@@ -20,8 +20,8 @@ for each four letter word in the dictionary
         Store the key in a text and store the plain text in the text.
 
 """
-CIPHER_TEXT = "tbtiu klwk ioh bkcp"
-KEY = "abbpqreoskanwwoeiidjahwuw"
+CIPHER_TEXT = "vp fulp go xcvne jbul ziafevny"
+KEY = "ulna"
 
 def decryptVignere(message, key):
     '''
@@ -58,7 +58,27 @@ def decryptVignere(message, key):
 
     return decrypted_message
 
+def wordsInDictionary(wordList, dictionary):
+    '''
+    Checks if all the words are in the dictionary.
+    '''
+    result = True
+
+    for word in wordList:
+        # Append a new line to the word so that it can properly match in the dictionary.txt file.
+        word += "\n"
+        # Check if the word is not in the dictionary.
+        if word not in dictionary:
+            # If it is not then set the result to false.
+            result = False
+    return result
+
+def crackMessage():
+    dictionary = open("dictionary.txt", "r")
+    result_file = open("results.txt", "w")
+    for word in dictionary:
+        result_file.write(decryptVignere(CIPHER_TEXT, word.strip("\n")) + "\n")
+
 
 if __name__ == "__main__":
-    test_message = decryptVignere(CIPHER_TEXT, KEY)
-    print test_message
+    crackMessage()
