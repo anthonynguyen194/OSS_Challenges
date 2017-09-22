@@ -1,4 +1,10 @@
 """
+OSS Challenge #2 - Vignere Cipher Solution
+Anthony Nguyen
+9/21/17
+
+Explanation
+------------
 What we know:
  - Vignere Cipher.
  - Key is a 4 letter word.
@@ -19,9 +25,8 @@ KEY = "abbpqreoskanwwoeiidjahwuw"
 
 def decryptVignere(message, key):
     '''
-    Decrypt the message using the specified key.
+    Decrypt the vignere cipher using the specified key.
     Source: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Algebraic_description
-    M = Dk(Ci) = (Ci -Ki) mod 26
     '''
     # Value to keep track of the string index in the key.
     key_index = 0
@@ -39,7 +44,7 @@ def decryptVignere(message, key):
             # Properly shift the letter down by the key at index i and typecast back to a character.
             new_letter_value = (letter_value - key_value)
 
-            # If the numbers are shifted backwards past 0 (negative) then offset by 26.
+            # If the numbers are shifted backwards past 0 (negative) then offset by 26. (Numbers should go backwards starting from 26.)
             if(new_letter_value < 0):
                 new_letter_value += 26
 
@@ -55,5 +60,5 @@ def decryptVignere(message, key):
 
 
 if __name__ == "__main__":
-    test = decryptVignere(CIPHER_TEXT, KEY)
-    print test
+    test_message = decryptVignere(CIPHER_TEXT, KEY)
+    print test_message
