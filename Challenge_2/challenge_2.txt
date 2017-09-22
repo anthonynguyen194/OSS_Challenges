@@ -1,10 +1,32 @@
-CIPHER TEXT
-===========
+Challenge 2 Answer
+
+[NOVICE]
+-------------------------------------------------------------------------------
+|CIPHER TEXT|
 pwrrdt it, pwrrdt it, pwrrdt it xjsv aydp
 cyo’dd bthtq ft xvws cyo xwbbw ft xjsv wdd svws iybtc, svws iybtc
 pwrrdt it, pwrrdt it, svqyx wxwc cyoq aydp
 cyo’dd bthtq ft xvws cyo xwbbw ft xjsv wdd svws iybtc, svws iybtc, svws iybtc
 
-KEY
-=====
+|PLAIN TEXT|
+dazzle me, dazzle me, dazzle me with gold
+you’ll never be what you wanna be with all that money, that money
+dazzle me, dazzle me, throw away your gold
+you’ll never be what you wanna be with all that money, that money, that money
+
+|KEY|
 wfnptlavjemdibykzqusohxgcr
+-------------------------------------------------------------------------------
+
+
+[VETERAN]
+-------------------------------------------------------------------------------
+|CIPHER TEXT|
+vp fulp go xcvne jbul ziafevny
+
+|PLAIN TEXT|
+be sure to drink your ovaltine
+
+|KEY|
+ulna
+-------------------------------------------------------------------------------

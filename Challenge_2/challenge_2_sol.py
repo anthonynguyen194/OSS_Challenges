@@ -1,5 +1,5 @@
 """
-OSS Challenge #2 - Vignere Cipher Solution
+OSS Challenge #2 - Vignere Cipher [Brute Force] Solution
 Anthony Nguyen
 9/21/17
 
@@ -9,6 +9,7 @@ What we know:
  - Vignere Cipher.
  - Key is a 4 letter word.
  - Key is a word in the dictionary.
+ - All plain text words are in the dictionary.
 
 Pseudo-Code
 -----------
@@ -16,12 +17,11 @@ open dictionary file.
 
 for each four letter word in the dictionary
   Attempt to decrypt the cipher text with the four letter word.
-    If the results of the decryption are words from teh dictionary
-        Store the key in a text and store the plain text in the text.
-
+    If the results of the decryption are words from the dictionary
+        Store the key in a text and write the plain text to results.txt.
 """
+
 CIPHER_TEXT = "vp fulp go xcvne jbul ziafevny"
-KEY = "ulna"
 
 def decryptVignere(message, key):
     '''
@@ -63,28 +63,31 @@ def wordInDictionary(word):
     Checks if all the words are in the dictionary.
     '''
     dictionary = open("dictionary.txt", "r")
+    word_found = False
 
-    result = False
-    word += "\n"
-
-    for word in dictionary:
-        result = True
-
+    # If the word is in the dictionary then set result to True.
+    if (word + "\n") in dictionary:
+        word_found = True
     dictionary.close()
 
-    return result
+    return word_found
 
 def crackMessage():
     dictionary = open("dictionary.txt", "r")
     result_file = open("results.txt", "w")
     for word in dictionary:
+        print("Decrypting with key: " + word)
         decrypted_message = decryptVignere(CIPHER_TEXT, word.strip("\n"))
-        new_word = decrypted_message.split()[0]
+        message_word = decrypted_message.split()[5]
 
-        if wordInDictionary(new_word):
+        # If all words in the list are in the dictionary write it to results.txt
+        if wordInDictionary(word_list):
+            result_file.write("Plain Text: ")
             result_file.write(decrypted_message + "\n")
-
-
+            result_file.write("Key: ")
+            result_file.write(word)
 
 if __name__ == "__main__":
     crackMessage()
+
+    print("Finished, results stored in results.txt.")
