@@ -1,5 +1,5 @@
 
-#Challenge #1 Phishing Mr. Foobar
+#Challenge 1 Phishing Mr. Foobar
 
 ##Scenario
 Our (fake) target Ben Foobar is currently in possession of a “secret message” and nobody but him and his manager knows about it. Your job is to get that secret message from him and try to decrypt it!
