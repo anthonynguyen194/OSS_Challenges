@@ -1,0 +1,14 @@
+[SQL Strings for the Sub-Challenges]
+
+Challenge #1: admin'OR'1=1'#
+Reason: The SQL statement checks if the username admin is true and also checks if password provided is true.
+This string will make the condition pass regardless of knowing the password to the admin account.
+
+Challenge #2: 5'OR'1=1'#
+Reason: The SQL statement is similar to the one above except that it checks if the patient ID provided matches
+any patient ID in the database itself. With this it will actually match for all patient ID's in the database thus
+resulting in all of the patient's information being outputted.
+
+Challenge #4: junk');INSERT INTO vip (fname, lname) values('John', 'Johnson');#
+Reason: We'll complete the initial SQL statement being executed in the server and add our own insert statement. We know 
+that the table we're adding into is called vip and we can guess what kind of records there are. (EX:fname, lname, firstname, lastname)
