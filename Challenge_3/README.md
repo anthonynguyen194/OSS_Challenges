@@ -28,9 +28,9 @@ SQL injection is an attack that occurs when an attacker tries to execute malicio
 
 More info: https://www.acunetix.com/websitesecurity/sql-injection/
 
-*Try out these hands on resources (Good for beginners!):* 
-https://www.codebashing.com/sql_demo
-http://sqlzoo.net/hack/
+*Try out these hands on resources (Good for beginners!):*
+* https://www.codebashing.com/sql_demo
+* http://sqlzoo.net/hack/
 
 
 ### Important!
