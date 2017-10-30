@@ -8,7 +8,7 @@ Our (fake) target Ben Foobar is currently in possession of a “secret message�
 * Ben currently works as a Software Engineer (SE) at Raytheon.
 * His manager’s name is John Doe.
 * Ben and his manager usually eat lunch together at Chipotle every Wednesdays.
-* **Email no long in use here is the cipher: Cffbj czbv pfl xfk kyv wzijk tyrccvexv! Kyzj fev nrj hlzkv vrjp, jkrp klevu evok nvvb wfi refkyvi tyrccvexv.**
+* **Email no longer in use, here is the cipher: Cffbj czbv pfl xfk kyv wzijk tyrccvexv! Kyzj fev nrj hlzkv vrjp, jkrp klevu evok nvvb wfi refkyvi tyrccvexv.**
 
 ## Goal
 Try to email and convince Mr. Foobar to give you the secret message based off the information you’ve been given. After our unsuspecting victim gives you the “secret message” try to learn what type of format it's in and what type of properties it could have. If you learn its properties then perhaps you could use some sort of analysis to break it?
