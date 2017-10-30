@@ -7,7 +7,9 @@
 For this particular challenge we’re going to be using a virtual machine that contains a local web application. We’re going to run it and use it to practice SQL injection! Before we do that we need to download and install VirtualBox: https://www.virtualbox.org/wiki/Downloads.
 
 ### Importing the VM: 
-The important step is to download the virtual machine at this link: [Download](https://www.dropbox.com/s/u9odw1myr3owqxh/OSS_Ubuntu16.04.3.zip?dl=0). Afterwards you want to start up VirtualBox and select File -> Import Appliance -> Select the VM you’ve just downloaded. The import setup should be pretty straightforward and you should be able to double click on the OSS_Ubuntu16.04.3 your VirtualBox manager to start it up.
+1. The important step is to download the virtual machine at this link: [Download](https://www.dropbox.com/s/u9odw1myr3owqxh/OSS_Ubuntu16.04.3.zip?dl=0). 
+2. Afterwards you want to start up VirtualBox and select File -> Import Appliance -> Select the VM you’ve just downloaded. 
+3. The import setup should be pretty straightforward and you should be able to double click on the **OSS_Ubuntu16.04.3** your VirtualBox manager to start it up.
 
 ### Starting up the web application:
 The password for the login is: secure123. Once you’ve logged in, open up the terminal or press (CTRL + ALT + T). Type these commands in the terminal:
