@@ -22,8 +22,8 @@ cyo’dd bthtq ft xvws cyo xwbbw ft xjsv wdd svws iybtc, svws iybtc, svws iybtc
 
 ## [VETERAN]
 ### Goal
-* I hid some super secret message using a Vigenere  cipher, can you:
-* Figure out the plain text of the cipher with this dictionary text file?
+* I hid some super secret message using a **Vigenere  cipher**, can you:
+* Figure out the plain text of the cipher with the dictionary text file that's been provided?
 * Figure out the key?
 
 ### Cipher Text
