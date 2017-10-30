@@ -1,0 +1,9 @@
+After getting the cipher code from Mr. Fubar its clear that the type of cipher that he's using is a caesar cipher.
+The caear cipher can be easily solved by calculating the word frequency and guessing the shifts from there. Another better
+and simple solution is to simply use an online caesar shift cracker.
+
+Cipher Text:
+Cffbj czbv pfl xfk kyv wzijk tyrccvexv! Kyzj fev nrj hlzkv vrjp, jkrp klevu evok nvvb wfi refkyvi tyrccvexv.
+
+Plain Text:
+Looks like you got the first challenge! This one was quite easy, stay tuned next week for another challenge.
