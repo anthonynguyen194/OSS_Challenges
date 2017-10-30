@@ -15,10 +15,10 @@ cyo’dd bthtq ft xvws cyo xwbbw ft xjsv wdd svws iybtc, svws iybtc, svws iybtc
 
 
 ### TIPS/HINTS:
-What kind of cipher is it? (Psst! It's not a shift cipher.) Challenge title hint?
-What letter appears the most in the ciphertext? Link
-Song.
-Trial and error baby.
+* What kind of cipher is it? (Psst! It's not a shift cipher.) Challenge title hint?
+* What letter appears the most in the ciphertext? Link: https://learncryptography.com/attack-vectors/frequency-analysis
+* Song.
+* Trial and error baby.
 
 ## [VETERAN]
 ### Goal
@@ -31,10 +31,10 @@ vp fulp go xcvne jbul ziafevny
 
 
 ### TIPS/HINTS
-The length of the key is 4
-The key is a word in the dictionary text file.
-The key and plaintext are all lowercase and are part of the alphabet a - z.
-a = 0, b = 1, c = 2, d = 3 … z = 25
-All words in the plain text are also in the dictionary text file.
-Use your l33t programming skills to solve it.
+* The length of the key is 4
+* The key is a word in the dictionary text file.
+* The key and plaintext are all lowercase and are part of the alphabet a - z.
+* a = 0, b = 1, c = 2, d = 3 … z = 25
+* All words in the plain text are also in the dictionary text file.
+* Use your l33t programming skills to solve it.
 
