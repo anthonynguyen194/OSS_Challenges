@@ -1,5 +1,5 @@
 After getting the cipher code from Mr. Fubar its clear that the type of cipher that he's using is a caesar cipher.
-The caear cipher can be easily solved by calculating the word frequency and guessing the shifts from there. Another better
+The caesar cipher can be easily solved by calculating the word frequency and guessing the shifts from there. Another better
 and simple solution is to simply use an online caesar shift cracker.
 
 Cipher Text:
