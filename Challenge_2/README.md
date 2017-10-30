@@ -3,9 +3,9 @@
 ## [NOVICE]
 ### Goal 
 I hid some super secret message in a ciphertext, can you:
-Count how many times each letters appear? (List them all)
-Figure out the plain text of the cipher.
-(Bonus) Figure out the key?
+* Count how many times each letters appear? (List them all)
+* Figure out the plain text of the cipher.
+* (Bonus) Figure out the key?
 
 ### Cipher Text
 pwrrdt it, pwrrdt it, pwrrdt it xjsv aydp
@@ -22,9 +22,9 @@ cyo’dd bthtq ft xvws cyo xwbbw ft xjsv wdd svws iybtc, svws iybtc, svws iybtc
 
 ## [VETERAN]
 ### Goal
-I hid some super secret message using a Vigenere  cipher, can you:
-Figure out the plain text of the cipher with this dictionary text file?
-Figure out the key?
+* I hid some super secret message using a Vigenere  cipher, can you:
+* Figure out the plain text of the cipher with this dictionary text file?
+* Figure out the key?
 
 ### Cipher Text
 vp fulp go xcvne jbul ziafevny
